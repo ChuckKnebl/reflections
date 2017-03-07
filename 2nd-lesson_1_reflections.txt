@@ -51,3 +51,25 @@ https://github.com/udacity/asteroids
 
 
 git diff 71d52709ddc4066e7a79a1d0a412e43429a0cdeb 547f4171a82ec6429d002c1acef357aec41d3f17
+
+==========================
+
+My first commit
+chuck (master +) reflections $ git commit
+[master (root-commit) a37c96d] Learn golf
+ 4 files changed, 96 insertions(+)
+ create mode 100644 .gitmessage.txt
+ create mode 100644 2nd-lesson_1_reflections.txt
+ create mode 100644 commit1.txt
+ create mode 100644 notes-03-04-17.txt
+chuck (master) reflections $ git log
+commit a37c96d581bcd66b890aacb467a0dd21bd589281
+Author: Chuck Knebl <chuck.knebl@att.net>
+Date:   Tue Mar 7 10:31:44 2017 -0500
+
+    Learn golf
+
+    Practice golf swing
+
+    [ticket: X]
+chuck (master) reflections $
