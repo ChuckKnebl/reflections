@@ -1,0 +1,53 @@
+For Learning to Use GitHub
+03/02/17
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+CK:  You would be able to learn from your mistake-prone early versions.
+
+If you were to put "git diff" on the map, which of the following existing concept(s) would you directly connect it with?
+commit
+Google Docs
+git  
+Version Control
+
+CK: commit
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git,
+ vs having versions automatically saved, like Google Docs does?
+
+CK:  Pros would be that you can decide to create a commit when a change follows logic to fix one problem.  Also, a con of automatic saving 
+would be too clutered to easily see your mistakes and changes.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+CK:  Because creating a snapshot of every file in your repository when you save with a commit will help your organization and tracking of changes.
+
+Revert Controls
+commit b0678b161fcf74467ed3a63110557e3d6229cfa6
+
+Fixed typo in space next commit
+
+commit f19cb1b80fe27e938e4d72770ca0a42f25e99ecc
+
+gitt diff b0678b161fcf74467ed3a63110557e3d6229cfa6 f19cb1b80fe27e938e4d72770ca0a42f25e99ecc
+
+git diff f19cb1b80fe27e938e4d72770ca0a42f25e99ecc b0678b161fcf74467ed3a63110557e3d6229cfa6 
+
+How can you use the commands git log and git diff to view the history of files?
+
+CK:  I can use these commands by accessing the "git log," hitting Q to exit the log, then using the correct
+"git diff" command, and copying and pasting the correct IDs from the log.  Then I will be able to see and analyze
+the changes that have been made to code. 
+
+Friday, 03-03-17
+
+https://github.com/udacity/asteroids
+
+
+
+
+git diff 71d52709ddc4066e7a79a1d0a412e43429a0cdeb 547f4171a82ec6429d002c1acef357aec41d3f17
